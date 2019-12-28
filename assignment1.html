@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 1</title>
+        <style>
+            table, th, td {
+            padding: 3px;
+            border: 2px solid blue; 
+            border-collapse: collapse;
+            }
+          </style>
+      
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td>Athlete name</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male<input type="radio" name="gender" value="male"> &nbsp;&nbsp;&nbsp;&nbsp;
+                    Female<input type="radio" name="gender" value="female"> </td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td><select name="Select">
+                    <option value="running">Running</option>
+                    <option value="high jump">High Jump</option>
+                    <option value="hurdles">Hurdles</option>
+                    <option value="relay">Relay</option>
+                    <option value="javelin throw">Javelin Throw</option>
+                    <option value="shot put">Shot Put</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="number" name="mobile" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></button>
+                    <input type="reset" value="Reset"></button></td>
+                    <td><a href="https://www.google.com">Home</a></td>
+            </tr>
+        </table>
+    </body>
+</html>
